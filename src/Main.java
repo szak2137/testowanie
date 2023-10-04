@@ -12,5 +12,11 @@ public class Main {
         System.out.println("wunik mnożenia to: " + result);
         System.out.printf("Wynik mnożenia liczby %f i liczby %f to: %.2f\n", number1, number2, result);
         System.out.println("wynik mnożenia liczby " + number1 + "i liczby " + number2 + "to: " + result);
+        System.out.println(2>3);
+        String str = "kocham bazy danych";
+        Boolean isTrue = true;
+        double potega = number1 *number1;
+        System.out.printf("Tekst to: %S - to jest: %b. liczba %f podniesiona do potęgi 2 wynosi %f.", str, isTrue, number1, potega);
+
     }
 }
