@@ -1,12 +1,16 @@
-
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        System.out.println(6+63);
-        int a = 12;
-        int b = 45;
-        System.out.println(a + b + " wynik");
-        System.out.println("wynik " + a + b);
-        System.out.println(b/a);
-        System.out.println( (double) b/a);
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Podaj pierwszą liczbę: ");
+        double number1 = scanner.nextDouble();
+        System.out.println("Podaj drugą liczbę: ");
+        double number2 = scanner.nextDouble();
+        double result = number1 * number2;
+        System.out.println("wunik mnożenia to: " + result);
+        System.out.printf("Wynik mnożenia liczby %f i liczby %f to: %.2f\n", number1, number2, result);
+        System.out.println("wynik mnożenia liczby " + number1 + "i liczby " + number2 + "to: " + result);
     }
 }
